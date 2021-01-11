@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_hmee"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/button_states"
+        android:onClick="connect"
+        android:text="SignIn"
+        android:textColor="#151515"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278" />
+
+    <Button
+        android:id="@+id/NotAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/button_states"
+        android:onClick="NotAccount"
+        android:text="SignUp"
+        android:textColor="#151515"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278" />
+
+    <Button
+        android:id="@+id/Forgot"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginBottom="16dp"
+        android:autoLink="email"
+        android:background="@drawable/button_states"
+        android:onClick="Forgot"
+        android:text="Forgot your password? Click HERE"
+        android:textColor="#151515"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Text5"
+        app:layout_constraintVertical_bias="0.687"
+        tools:ignore="UnknownId" />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:fontFamily="@font/damion"
+        android:text="Welcome To TradeOff"
+        android:textAlignment="center"
+        android:textColor="#0B55D5"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="394dp"
+        android:layout_height="44dp"
+        android:gravity="start"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#151515"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Pass"
+        android:layout_width="394dp"
+        android:layout_height="44dp"
+        android:gravity="start"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#151515"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

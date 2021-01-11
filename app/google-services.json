@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "133180476951",
+    "firebase_url": "https://tradeoff-70515.firebaseio.com",
+    "project_id": "tradeoff-70515",
+    "storage_bucket": "tradeoff-70515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133180476951:android:f74b7a5163d41e94121652",
+        "android_client_info": {
+          "package_name": "com.example.tradeoff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133180476951-aderlhc6t96sqtdp5vljt5gq1inb0c21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tradeoff",
+            "certificate_hash": "9b0163f8c497b1016bb493921dc6a5c9dc0228c5"
+          }
+        },
+        {
+          "client_id": "133180476951-sndmbtiulce76v1h1bjiv5qc70fvhv8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5LNVB15TWR5RpXHU8Pl78SoAIlu3z_eA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133180476951-sndmbtiulce76v1h1bjiv5qc70fvhv8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

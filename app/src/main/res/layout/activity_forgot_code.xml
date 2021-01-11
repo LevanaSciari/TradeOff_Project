@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_hmee"
+    android:visibility="visible"
+    tools:context=".Forgot_Password"
+    tools:visibility="visible">
+
+
+    <Button
+        android:id="@+id/btn_reset_password"
+        android:layout_width="142dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginBottom="304dp"
+        android:autoLink="email"
+        android:background="@drawable/button_states"
+        android:onClick="Reset"
+        android:text="Reset Passeword"
+        android:textColor="#151515"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="396dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="312dp"
+        android:hint="Enter your email"
+        android:textColorHint="#151515"
+        android:textSize="22dp"
+        android:textStyle="normal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/damion"
+        android:gravity="center_horizontal"
+        android:text="Forgot your password? "
+        android:textAlignment="center"
+        android:textColor="#0B55D5"
+        android:textSize="37sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
